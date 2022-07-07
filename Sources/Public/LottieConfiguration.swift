@@ -7,7 +7,7 @@
 public struct LottieConfiguration: Hashable {
 
   public init(
-    renderingEngine: RenderingEngineOption = .mainThread,
+    renderingEngine: RenderingEngineOption = .coreAnimation,
     decodingStrategy: DecodingStrategy = .codable)
   {
     self.renderingEngine = renderingEngine
